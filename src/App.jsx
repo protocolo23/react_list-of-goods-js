@@ -47,7 +47,7 @@ export const App = () => {
           className={`button is-info ${sortType === 'alphabet' ? '' : 'is-light'}`}
           onClick={() => setSortType('alphabet')}
         >
-          Sort Alphabetically
+          Sort alphabetically
         </button>
 
         <button
